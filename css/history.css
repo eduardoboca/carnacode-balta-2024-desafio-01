@@ -73,6 +73,7 @@ body > main .content .section-history{
     background: #F6F6F6;
     border-radius: 100px;
     border: 1px #E8E8E8 solid;
+    width: 600px;
 }
     
 .search::placeholder {
@@ -91,6 +92,7 @@ body > main .content .section-history{
 .tableHistory {
     border-collapse: collapse;
     margin-top: 20px;
+    width: 600px;
 }
   
 .rowHistory {
