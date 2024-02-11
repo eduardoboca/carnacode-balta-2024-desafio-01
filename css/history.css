@@ -141,3 +141,23 @@ body > main .content .section-history{
     word-wrap: break-word;
     text-align: left;
 }
+
+.table-data{
+    padding: 2%;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 600px) {
+    body {
+        text-align: center;
+        max-width: none;
+    }
+    .content {
+        width: 250px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .content {
+        width: 200px;
+    }
+}
