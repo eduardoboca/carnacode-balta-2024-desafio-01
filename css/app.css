@@ -116,3 +116,123 @@
         max-width: none;
     }
 }
+
+
+/* Historico */
+
+body > main .content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > main .content .section-history{
+    flex: 1;
+    padding: 1em;
+}
+
+/* Titulos */
+.PageHeader {
+    width: 100%; /* Ajuste a largura conforme necessário */
+    height: 36px;
+    text-align: center; /* Centralize o texto */
+    color: black;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top: 20px; /* Adicione margem superior */
+}
+
+.Feed{
+
+    left: 107px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+/* Barra de pesquisa */
+.div-search {
+    width: 100%; /* Ajuste a largura conforme necessário */
+    margin-top: 20px; /* Adicione margem superior */
+}
+
+.search {
+    width: 343px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background: #F6F6F6;
+    border-radius: 100px;
+    border: 1px #E8E8E8 solid;
+}
+    
+.search::placeholder {
+    left: 16px;
+    top: 16px;
+    color: #BDBDBD;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+/* Lista de historico */
+
+.tableHistory {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+.rowHistory {
+    border-bottom: 1px solid #E8E8E8;
+}
+  
+.icon-cell {
+    width: 50px;
+    height: 50px;
+    background: #F6F6F6;
+    border-radius: 8px;
+}
+  
+
+.textTitle {
+    left: 66px;
+    top: 0px;
+    color: black;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.textDate {
+    left: 284px;
+    top: 2px;
+    text-align: right;
+    color: #522020;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+  
+.textDescription {
+    width: 269px;
+    left: 66px;
+    top: 27px;
+    color: black;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
