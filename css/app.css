@@ -178,7 +178,8 @@ body > main .content .section-history{
 /* Barra de pesquisa */
 .div-search {
     width: 100%; 
-    margin-top: 20px;
+    margin-top: 20px; 
+}
 
 .search {
     width: 343px;
