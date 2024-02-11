@@ -139,6 +139,7 @@ body > main .content .section-history{
     left: 50%;
     z-index: 3;
     text-align: center;
+    padding-top: 2%;
 }
 
 .logo {
@@ -159,7 +160,8 @@ body > main .content .section-history{
     font-family: Inter;
     font-weight: 600;
     word-wrap: break-word;
-    margin-top: 20px; 
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .Feed{
@@ -229,6 +231,7 @@ body > main .content .section-history{
     font-family: Inter;
     font-weight: 600;
     word-wrap: break-word;
+    text-align: left;
 }
 
 .textDate {
@@ -240,6 +243,7 @@ body > main .content .section-history{
     font-family: Inter;
     font-weight: 400;
     word-wrap: break-word;
+    align-items: flex-start;
 }
   
 .textDescription {
@@ -251,4 +255,5 @@ body > main .content .section-history{
     font-family: Inter;
     font-weight: 400;
     word-wrap: break-word;
+    text-align: left;
 }
