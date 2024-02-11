@@ -114,6 +114,7 @@ body {
 
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 600px) {
+/* Seus estilos para telas pequenas aqui */
     body {
         text-align: center;
         max-width: none;
