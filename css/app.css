@@ -1,7 +1,4 @@
-body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-}
+@import url("./padrao.css");
 
 .container {
     max-width: 600px;

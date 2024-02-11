@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/app.css">
-    <title>IMC</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Cadastro</title>
 </head>
-
 <body>
-    <div class="app-title">Cálculo de IMC</div>
-    <div class="flex flex-column">
-        <div><input class="input-text" type="text" placeholder="Altura" /></div>
-        <div><input class="input-text" type="text" placeholder="Peso" /></div>
-        <div><input class="input-text" type="text" placeholder="Sexo" /></div>
+    <main class="todo">
+   
+    <div class="logo-container">
+        
+        <img src="assets/icon-no-bg.png" alt="logo" class="logo"> <!-- Adicionando a classe "logo" -->
+       
     </div>
-    <div class="    ">
-        <input class="checkbox" type="checkbox" id="age" />
-        <label class="checkbox-label" for="age"> Eu tenho 65 anos ou mais</label><br>
+    <div class="caixa">
+       <div class="titulo" > 
+        <h1>Crie sua conta</h1>
+        <h5 >Você precisa criar uma conta</h5>
     </div>
-    <div>
-        <button class="button-primary" type="button">Calcular meu IMC</button>
+        <div class="flex flex-column">
+            <div><input class="input-text" type="text" placeholder="Seu username" /></div>
+            <div><input class="input-text" type="text" placeholder="Seu melhor e-mail" /></div>
+            <div><input class="input-text" type="text" placeholder="Sua senha" /></div>
+            <div><input class="input-text" type="text" placeholder="Confirme sua senha" /></div>
+           
+        </div>
+        <div class="checkbox-container">
+            <input class="checkbox" type="checkbox" id="age" />
+            <label class="checkbox-label" for="age"> Não sou um robô</label><br>
+        </div>
+        <div>
+            <button class="button-primary" type="button">Criar Conta</button>
+        </div>
+        <div>
+            <button class="button-secondary white-background">Fazer Login</button>
+        </div>
     </div>
-    <div>
-        <button class="button-secondary">Entenda o cálculo</button>
-    </div>
+</main>
 </body>
 
 </html>
