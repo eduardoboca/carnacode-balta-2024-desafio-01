@@ -25,6 +25,7 @@ titulo {
     margin-top: 69px;
     align-items: center;
     text-align: center;
+   
     
 }
 
@@ -119,5 +120,16 @@ titulo {
     font-weight: 600px;
     color:#666666;
 
+}
+
+.titulo {
+    display: flex; /* Para permitir alinhar o ícone e o título lado a lado */
+    align-items: center; /* Para centralizar verticalmente */
+}
+
+.icone {
+    width: 40px; /* Ajuste a largura conforme necessário */
+    height: 40px; /* Ajuste a altura conforme necessário */
+    margin-right: 30px; /* Adicione margem à direita para separar o ícone do título */
 }
 

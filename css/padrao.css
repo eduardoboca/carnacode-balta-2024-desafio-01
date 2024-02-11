@@ -21,3 +21,36 @@ h5{
        color: gray;
     text-align: center;
 }
+
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 600px) {
+    body {
+        text-align: center;
+        max-width: none;
+    }
+    .caixa {
+        width: 250px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .caixa {
+        width: 200px;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 600px) {
+    body {
+        text-align: center;
+        max-width: none;
+    }
+    .caixa {
+        width: 250px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .caixa {
+        width: 200px;
+    }
+}
