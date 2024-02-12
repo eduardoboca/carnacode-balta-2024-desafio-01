@@ -14,6 +14,7 @@ body > main .content{
 body > main .content .section-history{
     flex: 1;
     padding: 1em;
+    width: 600px;
 }
 
 /* Logo */
@@ -25,8 +26,10 @@ body > main .content .section-history{
 }
 
 .logo {
-    width: 95px;
-    height: 95px;
+    width: 90%; 
+    height: 90%;
+    max-width: 95px; 
+    max-height: 95px; 
     border-radius: 12px;
     background-color: white;
     border: 2px solid #45FEFE;
@@ -38,8 +41,7 @@ body > main .content .section-history{
     height: 36px;
     text-align: center; 
     color: black;
-    font-size: 30px;
-    font-family: Inter;
+    font-size: 300%;
     font-weight: 600;
     word-wrap: break-word;
     margin-top: 2%;
@@ -62,37 +64,42 @@ body > main .content .section-history{
 /* Barra de pesquisa */
 .div-search {
     width: 100%; 
-    margin-top: 20px; 
+    margin-top: 2vh; 
 }
 
 .search {
-    width: 343px;
+    width: 90%; 
+    max-width: 600px; 
     height: 50px;
     left: 0px;
     top: 0px;
+    font-size: 100%;
     background: #F6F6F6;
-    border-radius: 100px;
+    border-radius: 25px;
     border: 1px #E8E8E8 solid;
-    width: 600px;
+    text-indent: 5%;
 }
     
 .search::placeholder {
-    padding-left: 5%;
+    padding: 2%;
     left: 16px;
     top: 16px;
     color: #BDBDBD;
-    font-size: 16px;
-    font-family: Inter;
     font-weight: 500;
     word-wrap: break-word;
+}
+
+.search input {
+    padding-left: 10px; /* Adiciona um espaço interno à esquerda */
 }
 
 /* Lista de historico */
 
 .tableHistory {
     border-collapse: collapse;
-    margin-top: 20px;
-    width: 600px;
+    margin-top: 2vh auto; 
+    width: 100%; 
+    max-width: 600px; 
 }
   
 .rowHistory {
@@ -100,7 +107,7 @@ body > main .content .section-history{
 }
   
 .icon-cell {
-    width: 50px;
+    width: 50px; 
     height: 50px;
     background: #F6F6F6;
     border-radius: 8px;
@@ -111,8 +118,6 @@ body > main .content .section-history{
     left: 66px;
     top: 0px;
     color: black;
-    font-size: 16px;
-    font-family: Inter;
     font-weight: 600;
     word-wrap: break-word;
     text-align: left;
@@ -123,22 +128,16 @@ body > main .content .section-history{
     top: 2px;
     text-align: right;
     color: #522020;
-    font-size: 14px;
-    font-family: Inter;
     font-weight: 400;
     word-wrap: break-word;
     align-items: flex-start;
 }
   
 .textDescription {
-    width: 269px;
-    left: 66px;
-    top: 27px;
+    width: 90%; /* Utilizando uma porcentagem da largura da tela */
+    max-width: 269px; /* Limitando a largura máxima */
     color: black;
-    font-size: 14px;
-    font-family: Inter;
     font-weight: 400;
-    word-wrap: break-word;
     text-align: left;
 }
 
@@ -148,16 +147,23 @@ body > main .content .section-history{
 
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 600px) {
-    body {
-        text-align: center;
-        max-width: none;
+    .search {
+        width: 80%; /* Reduzindo a largura da barra de pesquisa */
     }
-    .content {
-        width: 250px;
+
+    body > main .content .section-history{
+        flex: 1;
+        padding: 1em;
+        width: 300px;
     }
 }
-@media screen and (max-width: 576px) {
-    .content {
-        width: 200px;
+
+@media screen and (max-width: 400px) {
+    .PageHeader {
+        font-size: 20px; /* Definindo um tamanho de fonte fixo para telas muito pequenas */
+    }
+
+    .textTitle, .textDescription {
+        font-size: 14px; /* Reduzindo o tamanho da fonte para telas muito pequenas */
     }
 }
